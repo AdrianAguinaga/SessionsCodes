@@ -1,0 +1,88 @@
+<div style="background: linear-gradient(135deg, #0d2c4f 0%, #16456f 60%, #1b5a8a 100%); border-radius: 12px; padding: 32px 28px; color: #ffffff; margin-bottom: 24px;">
+    <div style="color: #ffb3b3; font-size: 0.85rem; margin-bottom: 8px;">🚀 FSDI 107 &bull; Session 3</div>
+    <h1 style="color: #ffffff; margin: 0 0 12px 0; font-size: 2rem;">Data Fetching &amp; Side Effects</h1>
+    <p style="color: #d6e4f0; margin: 0; font-size: 1.1rem;">Welcome to Session 3! Today, we will focus on consuming data from a mock service and learning how to manage data flow effectively to build dynamic, responsive user interfaces.</p>
+    <div style="margin-top: 16px;"><span style="background-color: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 8px;">Cohort 69</span> <span style="background-color: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; font-size: 0.85rem;">Live Session</span></div>
+</div>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">📋 Course Overview</h2>
+<table style="border-collapse: collapse; width: 100%; margin-bottom: 28px; border-radius: 10px; overflow: hidden;" border="0">
+    <thead>
+        <tr style="background-color: #0d2c4f; color: #ffffff;">
+            <th style="padding: 12px; text-align: left;">Activity</th>
+            <th style="padding: 12px; text-align: center;">Due Day</th>
+            <th style="padding: 12px; text-align: center;">Format</th>
+            <th style="padding: 12px; text-align: center;">Grading %</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: #ffffff; border-bottom: 1px solid #e4eaf0;">
+            <td style="padding: 12px; color: #1f2d3d;">💻 Work on Assignment 3</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Class 3</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Assignment</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">6.66%</td>
+        </tr>
+        <tr style="background-color: #f7fafc; border-bottom: 1px solid #e4eaf0;">
+            <td style="padding: 12px; color: #1f2d3d;">💬 Work on Discussion 1</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Class 3</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Discussion</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">5%</td>
+        </tr>
+        <tr style="background-color: #ffffff; border-bottom: 1px solid #e4eaf0;">
+            <td style="padding: 12px; color: #1f2d3d;">🎥 Connect to Zoom Session</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Class 3</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Attendance</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">10%</td>
+        </tr>
+    </tbody>
+</table>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">🎥 Zoom Video Conference Class Session</h2>
+<div style="background-color: #ffffff; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #dde5ec;">
+    <p style="color: #1f2d3d; margin-top: 0;">SDGKU is inviting you to a scheduled Zoom meeting.</p>
+    <ul style="color: #5a6b7c; list-style-type: none; padding-left: 0;">
+        <li style="margin-bottom: 8px;">📌 <strong>Topic:</strong> 107 Session 3, Cohort 69</li>
+        <li style="margin-bottom: 8px;">⏰ <strong>Time:</strong> Aug 3, 2026 05:00 PM Pacific Time (US and Canada)</li>
+        <li style="margin-bottom: 8px;">🔑 <strong>Meeting ID:</strong> 827 7186 4245</li>
+        <li style="margin-bottom: 8px;">🔐 <strong>Passcode:</strong> 740729</li>
+    </ul>
+    <div style="margin-top: 20px; margin-bottom: 16px;"><a style="background-color: #d23939; color: #ffffff; padding: 13px 34px; border-radius: 8px; text-decoration: none; font-size: 1.05rem; display: inline-block;" href="https://us02web.zoom.us/j/82771864245?pwd=bcvvq0WbEZy1ClJLnJe6ib5zkbZxYl.1" target="_blank" rel="noopener">▶ Join Zoom Meeting</a></div>
+    <div style="margin-top: 12px;">
+        <p style="margin-bottom: 6px; font-size: 0.95rem;">💬 <a style="color: #1b5a8a; text-decoration: none;" href="https://us02web.zoom.us/launch/jc/82771864245">Access Meeting Chat</a></p>
+        <p style="margin-bottom: 0; font-size: 0.95rem;">🤖 <a style="color: #1b5a8a; text-decoration: none;" href="https://us02web.zoom.us/launch/edl?muid=d19b5f48-9b62-409c-b2ca-bf5ae07aaf7a">View insights with Zoom AI Companion</a></p>
+    </div>
+</div>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">🎯 Learning Outcomes</h2>
+<div style="background-color: #ffffff; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #dde5ec;">
+    <h3 style="color: #0d2c4f; margin-top: 0;">📖 Lesson Objective &amp; Concepts</h3>
+    <p style="color: #1f2d3d; line-height: 1.6;">In almost every React application, we will need to retrieve data from various sources such as a <strong>backend server</strong>, a centralized store, or any form of in-memory persistence. Managing this data flow effectively is crucial for building dynamic and responsive user interfaces.</p>
+    <p style="color: #1f2d3d; line-height: 1.6;">In this class, we will focus on consuming data&mdash;specifically, items for a store&mdash;from a <strong>mock service</strong>. This mock service initially provides data from a hardcoded array, simulating the retrieval of data without relying on an actual backend. This approach allows us to develop and test our frontend independently while the backend is still under development. Later on, we will enhance this service to fetch data from a real <strong>backend API</strong>, enabling our application to work with live data.</p>
+    <p style="color: #1f2d3d; line-height: 1.6;">Using a mock service is a common practice in React development. It helps isolate the UI logic and data fetching concerns, making it easier to implement, debug, and maintain our applications. We will use React&rsquo;s <strong><code>useEffect</code></strong> hook to perform the data fetching operation when the component mounts, ensuring that the data is loaded efficiently and the UI updates accordingly.</p>
+    <p style="color: #1f2d3d; line-height: 1.6; margin-bottom: 0;">As we progress, we will learn best practices for data fetching in React, including handling asynchronous requests, managing loading and error states, and optimizing performance. This foundation will prepare us to integrate more advanced data-fetching libraries, such as React Query, which improve scalability in real-world applications.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 28px;">
+    <div style="flex: 1 1 300px; background-color: #fdf3f3; border-radius: 10px; padding: 20px 22px; border: 1px solid #f0c9c9;">
+        <h3 style="color: #d23939; margin-top: 0;">💡 Discussion &amp; Reflection</h3>
+        <ul style="color: #1f2d3d; padding-left: 20px; margin-bottom: 0;">
+            <li style="margin-bottom: 12px;"><strong>Why is <code>useEffect</code> only called once with an empty dependency array?</strong><br /><span style="color: #5a6b7c;">An empty dependency array <code>[]</code> tells React that our effect does not depend on any props or state variables. Therefore, it only needs to run exactly once after the initial render (when the component mounts), which is perfect for fetching initial data.</span></li>
+            <li style="margin-bottom: 12px;"><strong>What makes <code>filter()</code> powerful in React?</strong><br /><span style="color: #5a6b7c;">The <code>filter()</code> method allows us to create new arrays based on specific conditions without mutating the original state. This immutability is crucial in React for updating views dynamically, such as filtering products by category.</span></li>
+            <li><strong>How does Bootstrap speed up layout design?</strong><br /><span style="color: #5a6b7c;">Bootstrap provides pre-built, responsive CSS classes and components. It allows us to quickly structure and style our UI without writing custom CSS from scratch, speeding up the development process significantly.</span></li>
+        </ul>
+    </div>
+    <div style="flex: 1 1 300px; background-color: #ffffff; border-radius: 10px; padding: 20px 22px; border: 1px solid #dde5ec;">
+        <h3 style="color: #0d2c4f; margin-top: 0;">🚀 Next Steps</h3>
+        <p style="color: #5a6b7c;">Get ready to handle side effects! We will be writing our own mock service to practice loading external data into our React application.</p>
+        <p style="color: #5a6b7c; margin-bottom: 0;">Make sure you have your local environment running and are prepared to write your first <strong><code>useEffect</code></strong> hook alongside the instructor during our hands-on coding session.</p>
+    </div>
+</div>
+<div style="background-color: #f0f7f2; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #cfe5d6;">
+    <h3 style="color: #1d6b3a; margin-top: 0;">✅ Summary</h3>
+    <p style="color: #1f2d3d;">By the end of this session, we will be able to:</p>
+    <ul style="color: #1f2d3d; padding-left: 20px; margin-bottom: 16px;">
+        <li style="margin-bottom: 6px;">Use the <strong><code>useEffect</code></strong> hook to simulate dynamic data loading when a component mounts.</li>
+        <li style="margin-bottom: 6px;">Use the JavaScript <strong><code>filter()</code></strong> method to dynamically update views (e.g., filtering products by category).</li>
+        <li style="margin-bottom: 0;">Style our application rapidly utilizing <strong>Bootstrap</strong> alongside our component structure.</li>
+    </ul>
+    <p style="color: #1f2d3d; font-style: italic; margin-bottom: 0;">These techniques form the core of interacting with data and updating our User Interfaces efficiently.</p>
+</div>
+<div style="background-color: #0d2c4f; border-radius: 10px; padding: 16px 22px; text-align: center; color: #d6e4f0; margin-top: 32px;">
+    <p style="margin: 0; font-size: 0.95rem;">🚀 <strong>FSDI 106 / 107 - Full Stack Development Immersive</strong> | San Diego Global Knowledge University</p>
+</div>

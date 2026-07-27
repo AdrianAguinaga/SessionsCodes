@@ -1,0 +1,110 @@
+<div style="background: linear-gradient(135deg, #0d2c4f 0%, #16456f 60%, #1b5a8a 100%); border-radius: 12px; padding: 32px 28px; color: #ffffff; margin-bottom: 24px;">
+    <div style="color: #ffb3b3; font-size: 0.85rem; margin-bottom: 8px;">🚀 FSDI 107 &bull; Session 4</div>
+    <h1 style="color: #ffffff; margin: 0 0 12px 0; font-size: 2rem;">Component Data Flow &amp; Callbacks</h1>
+    <p style="color: #d6e4f0; margin: 0; font-size: 1.1rem;">Welcome to Session 4! Today, we will explore how to manage the flow of data between our components, focusing on passing data downwards with props and communicating upwards using callback functions.</p>
+    <div style="margin-top: 16px;"><span style="background-color: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 8px;">Cohort 69</span> <span style="background-color: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; font-size: 0.85rem;">Live Session</span></div>
+</div>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">📋 Course Overview</h2>
+<table style="border-collapse: collapse; width: 100%; margin-bottom: 28px; border-radius: 10px; overflow: hidden;" border="0">
+    <thead>
+        <tr style="background-color: #0d2c4f; color: #ffffff;">
+            <th style="padding: 12px; text-align: left;">Activity</th>
+            <th style="padding: 12px; text-align: center;">Due Day</th>
+            <th style="padding: 12px; text-align: center;">Format</th>
+            <th style="padding: 12px; text-align: center;">Grading %</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: #ffffff; border-bottom: 1px solid #e4eaf0;">
+            <td style="padding: 12px; color: #1f2d3d;">💬 Work on Discussion 2</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Class 4</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Assignment</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">5%</td>
+        </tr>
+        <tr style="background-color: #f7fafc; border-bottom: 1px solid #e4eaf0;">
+            <td style="padding: 12px; color: #1f2d3d;">📝 Submit Competency Report (up to 1 week after)</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Class 4</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Report</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">20%</td>
+        </tr>
+        <tr style="background-color: #ffffff; border-bottom: 1px solid #e4eaf0;">
+            <td style="padding: 12px; color: #1f2d3d;">🎥 Connect to Zoom Session</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Class 4</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Attendance</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">10%</td>
+        </tr>
+    </tbody>
+</table>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">🎥 Zoom Video Conference Class Session</h2>
+<div style="background-color: #ffffff; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #dde5ec;">
+    <p style="color: #1f2d3d; margin-top: 0;">SDGKU is inviting you to a scheduled Zoom meeting.</p>
+    <ul style="color: #5a6b7c; list-style-type: none; padding-left: 0;">
+        <li style="margin-bottom: 8px;">📌 <strong>Topic:</strong> 107 Session 4, Cohort 69</li>
+        <li style="margin-bottom: 8px;">⏰ <strong>Time:</strong> Aug 5, 2026 05:00 PM Pacific Time (US and Canada)</li>
+        <li style="margin-bottom: 8px;">🔑 <strong>Meeting ID:</strong> 822 6911 7206</li>
+        <li style="margin-bottom: 8px;">🔐 <strong>Passcode:</strong> 197862</li>
+    </ul>
+    <div style="margin-top: 20px; margin-bottom: 16px;"><a style="background-color: #d23939; color: #ffffff; padding: 13px 34px; border-radius: 8px; text-decoration: none; font-size: 1.05rem; display: inline-block;" href="https://us02web.zoom.us/j/82269117206?pwd=C6RWnfVpK3cQspTJMNJS8vwXZ1GQnx.1" target="_blank" rel="noopener">▶ Join Zoom Meeting</a></div>
+    <div style="margin-top: 12px;">
+        <p style="margin-bottom: 6px; font-size: 0.95rem;">💬 <a style="color: #1b5a8a; text-decoration: none;" href="https://us02web.zoom.us/launch/jc/82269117206">Access Meeting Chat</a></p>
+        <p style="margin-bottom: 0; font-size: 0.95rem;">🤖 <a style="color: #1b5a8a; text-decoration: none;" href="https://us02web.zoom.us/launch/edl?muid=95d17261-c6e7-4795-9e80-5e7a92d7b505">View insights with Zoom AI Companion</a></p>
+    </div>
+</div>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">🎯 Learning Outcomes</h2>
+<div style="background-color: #ffffff; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #dde5ec;">
+    <h3 style="color: #0d2c4f; margin-top: 0;">📖 Introduction</h3>
+    <p style="color: #1f2d3d; line-height: 1.6;">In React, managing the flow of data between our components is essential for building interactive and maintainable user interfaces. The most fundamental pattern is passing data from parent to child components using <strong>props</strong>. Our React components are simply functions that receive a single parameter called <code>props</code>, which is an object containing any data or functions the parent wants to provide.</p>
+    <h4 style="color: #1b5a8a; margin-top: 24px; margin-bottom: 12px;">⬇️ From Parent to Child with Props</h4>
+    <p style="color: #1f2d3d; line-height: 1.6;">The simplest and most common direction for data flow in React is <strong>downwards</strong>&mdash;from parent to child. When a parent component wants to supply data to a child, it passes the data as attributes in the JSX tag that renders the child.</p>
+    <p style="color: #1f2d3d; line-height: 1.6;">For example, consider a <code>BookList</code> component that manages an array of book objects. As it renders a list of <code>Book</code> components, it passes each book's details (such as title and author) as props. This allows each child to receive and display its own unique data without needing to know about the entire list.</p>
+    <pre style="background-color: #0d2c4f; color: #e8f0f8; border-radius: 8px; padding: 16px; margin: 16px 0; overflow-x: auto; font-family: monospace; font-size: 0.95rem;"><code>function BookList({ books }) {
+  return (
+    &lt;div&gt;
+      {books.map(book =&gt; (
+        &lt;Book key={book.id} title={book.title} author={book.author} /&gt;
+      ))}
+    &lt;/div&gt;
+  );
+}</code></pre>
+    <p style="color: #5a6b7c; font-size: 0.95rem; margin-top: 8px; margin-bottom: 24px;"><em>Here, <code>title</code> and <code>author</code> are props passed from the parent (<code>BookList</code>) to the child (<code>Book</code>).</em></p>
+    <h4 style="color: #1b5a8a; margin-top: 24px; margin-bottom: 12px;">⬆️ From Child to Parent with Callbacks</h4>
+    <p style="color: #1f2d3d; line-height: 1.6;">Sometimes, we need to communicate <strong>upwards</strong>&mdash;from a child to its parent. Since data can't flow directly from child to parent in React, the parent must provide a <strong>callback function</strong> as a prop to the child. The child can then invoke this function when a specific event occurs (such as an input change) to inform the parent of a state change or user action.</p>
+    <p style="color: #1f2d3d; line-height: 1.6;">For example, a <code>QuantityPicker</code> child component might receive an <code>onQuantityChange</code> function prop from its parent. When the user selects a new quantity, the child calls this function, passing the new value back up to the parent, which can then update its state accordingly.</p>
+    <pre style="background-color: #0d2c4f; color: #e8f0f8; border-radius: 8px; padding: 16px; margin: 16px 0; overflow-x: auto; font-family: monospace; font-size: 0.95rem;"><code>function QuantityPicker({ onQuantityChange }) {
+  return (
+    &lt;input
+      type="number"
+      onChange={e =&gt; onQuantityChange(Number(e.target.value))}
+    /&gt;
+  );
+}</code></pre>
+    <p style="color: #5a6b7c; font-size: 0.95rem; margin-top: 8px; margin-bottom: 0;"><em>This pattern enables two-way communication: parents provide data and functions to children, and children notify parents of changes or actions.</em></p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 28px;">
+    <div style="flex: 1 1 300px; background-color: #fdf3f3; border-radius: 10px; padding: 20px 22px; border: 1px solid #f0c9c9;">
+        <h3 style="color: #d23939; margin-top: 0;">💡 Discussion &amp; Reflection</h3>
+        <ul style="color: #1f2d3d; padding-left: 20px; margin-bottom: 0;">
+            <li style="margin-bottom: 12px;"><strong>How does a component inform its parent about a state change?</strong><br /><span style="color: #5a6b7c;">It informs its parent by calling a <strong>callback function</strong> that was passed down from the parent as a prop. This allows the parent to update its own state in response to child events.</span></li>
+            <li style="margin-bottom: 12px;"><strong>Why is <code>useState</code> local to each Product?</strong><br /><span style="color: #5a6b7c;">The <code>useState</code> hook is local to each <code>Product</code> component instance. This means each product maintains its own independent state (like selected quantity), ensuring changes in one product don't affect others.</span></li>
+            <li><strong>How can this system scale to a full cart?</strong><br /><span style="color: #5a6b7c;">We can scale this by having each product communicate quantity changes up to a parent Cart component via callbacks. The parent aggregates this data, computes totals, and manages the overall state of the cart.</span></li>
+        </ul>
+    </div>
+    <div style="flex: 1 1 300px; background-color: #ffffff; border-radius: 10px; padding: 20px 22px; border: 1px solid #dde5ec;">
+        <h3 style="color: #0d2c4f; margin-top: 0;">🚀 Next Steps</h3>
+        <p style="color: #5a6b7c;">Get ready to implement two-way communication! We will be building our own <code>QuantityPicker</code> and connecting it to a parent component to simulate an active shopping cart.</p>
+        <p style="color: #5a6b7c; margin-bottom: 0;">Make sure you have your local environment running and are prepared to write parent-to-child data flows during our hands-on coding session.</p>
+    </div>
+</div>
+<div style="background-color: #f0f7f2; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #cfe5d6;">
+    <h3 style="color: #1d6b3a; margin-top: 0;">✅ Summary</h3>
+    <p style="color: #1f2d3d;">By the end of this session, we will be able to:</p>
+    <ul style="color: #1f2d3d; padding-left: 20px; margin-bottom: 16px;">
+        <li style="margin-bottom: 6px;">Use <strong>props</strong> to pass both data and functions from parent components downwards to child components.</li>
+        <li style="margin-bottom: 6px;">Capture user input (such as item quantity) from child components like our <strong><code>QuantityPicker</code></strong>.</li>
+        <li style="margin-bottom: 0;">Simulate adding products to a cart and calculating totals by managing state in parent components and aggregating data received from children via <strong>callbacks</strong>.</li>
+    </ul>
+    <p style="color: #1f2d3d; font-style: italic; margin-bottom: 0;">These skills form the critical foundation for building interactive, scalable shopping cart features and complex UI patterns in React!</p>
+</div>
+<div style="background-color: #0d2c4f; border-radius: 10px; padding: 16px 22px; text-align: center; color: #d6e4f0; margin-top: 32px;">
+    <p style="margin: 0; font-size: 0.95rem;">🚀 <strong>FSDI 106 / 107 - Full Stack Development Immersive</strong> | San Diego Global Knowledge University</p>
+</div>
