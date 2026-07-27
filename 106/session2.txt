@@ -1,0 +1,157 @@
+<p>&nbsp;</p>
+<div style="background: linear-gradient(135deg, #0d2c4f 0%, #16456f 60%, #1b5a8a 100%); border-radius: 12px; padding: 32px 28px; color: #ffffff; margin-bottom: 24px;">
+    <p style="margin: 0 0 6px 0; font-size: 0.85rem; color: #ffb3b3;"><strong>FSDI 106 &middot; Full Stack Development Immersive</strong></p>
+    <h1 style="margin: 0px 0px 10px; color: #ffffff; font-size: 1.9rem; line-height: 1.2; border: medium none currentcolor;">Session 2: The DOM, Events &amp; Reading Data</h1>
+    <p style="margin: 0; font-size: 1rem; color: #d6e4f0;">Master DOM manipulation with jQuery, handle form events, and implement the first leg of client&ndash;server communication (GET).</p>
+    <p style="margin: 14px 0 0 0;"><span style="background-color: #d23939; color: #ffffff; padding: 5px 14px; border-radius: 20px; font-size: 0.85rem; margin-right: 8px; display: inline-block;">⏱ 3-Hour Session</span> <span style="background-color: rgba(255,255,255,0.15); color: #ffffff; padding: 5px 14px; border-radius: 20px; font-size: 0.85rem; display: inline-block;">🌐 AJAX &amp; HTTP Requests</span></p>
+</div>
+<div style="background-color: #ffffff; border-radius: 12px; padding: 24px 28px; margin-bottom: 24px; border: 2px solid #d23939;">
+    <h2 style="margin: 0px 0px 4px; color: #0d2c4f; font-size: 1.3rem; border: medium none currentcolor;">📹 Join the Live Session</h2>
+    <p style="margin: 0 0 16px 0; color: #5a6b7c; font-size: 0.9rem;">FSDI 106 &middot; Session 2 &middot; Cohort 69</p>
+    <p style="margin: 0 0 16px 0; font-size: 1.05rem; color: #1f2d3d;"><strong>📅 Wednesday, July 22, 2026 &mdash; 5:00 PM Pacific Time (US &amp; Canada)</strong></p>
+    <p style="margin: 0 0 18px 0;"><a class="Button" style="background-color: #d23939; color: #ffffff; padding: 13px 34px; border-radius: 8px; text-decoration: none; font-size: 1.05rem; display: inline-block;" href="https://us02web.zoom.us/j/89888393414?pwd=K3tzcVG2J243w8vGue7XblycoOZPGm.1" target="_blank" rel="noopener">▶&nbsp; Join Zoom Meeting</a></p>
+    <table style="border-collapse: collapse; width: auto;">
+        <tbody>
+            <tr>
+                <td style="padding: 4px 18px 4px 0; color: #5a6b7c; font-size: 0.95rem;"><strong>Meeting ID</strong></td>
+                <td style="padding: 4px 0; font-family: monospace; font-size: 1rem; color: #0d2c4f;">898 8839 3414</td>
+            </tr>
+            <tr>
+                <td style="padding: 4px 18px 4px 0; color: #5a6b7c; font-size: 0.95rem;"><strong>Passcode</strong></td>
+                <td style="padding: 4px 0; font-family: monospace; font-size: 1rem; color: #0d2c4f;">198820</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p>&nbsp;</p>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">📋 Session Overview</h2>
+<table style="border-collapse: collapse; width: 100%; margin-bottom: 28px; border-radius: 10px; overflow: hidden;" border="0">
+    <thead>
+        <tr style="background-color: #0d2c4f;">
+            <th style="padding: 12px 14px; color: #ffffff; text-align: left; font-size: 0.95rem;">Activity</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem;">Due</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem;">Format</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem;">Grading %</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem;">Outcome</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: #ffffff;">
+            <td style="padding: 12px 14px; border-bottom: 1px solid #e4eaf0; color: #1f2d3d;">🔨 Work on Assignment 2</td>
+            <td style="padding: 12px 14px; border-bottom: 1px solid #e4eaf0; text-align: center; color: #1f2d3d;">Class 3</td>
+            <td style="padding: 12px 14px; border-bottom: 1px solid #e4eaf0; text-align: center;"><span style="background-color: #eef3f8; color: #0d2c4f; padding: 3px 12px; border-radius: 14px; font-size: 0.85rem;">Assignment</span></td>
+            <td style="padding: 12px 14px; border-bottom: 1px solid #e4eaf0; text-align: center; color: #1f2d3d;"><strong>6.66%</strong></td>
+            <td style="padding: 12px 14px; border-bottom: 1px solid #e4eaf0; text-align: center; color: #1f2d3d;">1</td>
+        </tr>
+        <tr style="background-color: #f7fafc;">
+            <td style="padding: 12px 14px; color: #1f2d3d;">📹 Connect to Zoom Session</td>
+            <td style="padding: 12px 14px; text-align: center; color: #1f2d3d;">Class 2</td>
+            <td style="padding: 12px 14px; text-align: center;"><span style="background-color: #eef3f8; color: #0d2c4f; padding: 3px 12px; border-radius: 14px; font-size: 0.85rem;">Attendance</span></td>
+            <td style="padding: 12px 14px; text-align: center; color: #1f2d3d;"><strong>10%</strong></td>
+            <td style="padding: 12px 14px; text-align: center; color: #8a99a8;">&mdash;</td>
+        </tr>
+    </tbody>
+</table>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">🎯 Learning Outcomes</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 16px;">
+    <div style="flex: 1 1 300px; background-color: #f7fafc; border-left: 4px solid #d23939; border-radius: 0 8px 8px 0; padding: 16px 20px;">
+        <h3 style="margin: 0 0 8px 0; color: #0d2c4f; font-size: 1.05rem;">1 &middot; HTTP Request Handling on the Client Side</h3>
+        <p style="margin: 0 0 8px 0; color: #1f2d3d; font-size: 0.95rem;">Demonstrate proficiency in making HTTP requests and handling responses:</p>
+        <ul style="color: #1f2d3d; margin: 0; padding-left: 20px; font-size: 0.95rem;">
+            <li style="margin-bottom: 4px;"><strong>GET</strong> requests &mdash; retrieve data from a server (e.g., fetching posts).</li>
+            <li style="margin-bottom: 4px;"><strong>POST</strong> requests &mdash; send data to a server (e.g., submitting a form).</li>
+            <li>Handling <strong>JSON</strong> responses.</li>
+        </ul>
+    </div>
+    <div style="flex: 1 1 300px; background-color: #f7fafc; border-left: 4px solid #d23939; border-radius: 0 8px 8px 0; padding: 16px 20px;">
+        <h3 style="margin: 0 0 8px 0; color: #0d2c4f; font-size: 1.05rem;">2 &middot; Basic jQuery and AJAX</h3>
+        <p style="margin: 0 0 8px 0; color: #1f2d3d; font-size: 0.95rem;">Use jQuery to simplify DOM manipulation and handle HTTP requests with AJAX:</p>
+        <ul style="color: #1f2d3d; margin: 0; padding-left: 20px; font-size: 0.95rem;">
+            <li style="margin-bottom: 4px;">Connecting to a server using <strong>GET</strong> and <strong>POST</strong>.</li>
+            <li style="margin-bottom: 4px;">Handling <strong>JSON data</strong> with jQuery.</li>
+            <li>Managing <strong>success</strong> and <strong>error</strong> callbacks.</li>
+        </ul>
+    </div>
+</div>
+<div style="background-color: #fdf3f3; border-radius: 10px; padding: 16px 22px; margin-bottom: 28px; border: 1px solid #f0c9c9;">
+    <p style="margin: 0 0 8px 0; color: #0d2c4f;"><strong>💡 Key Concept &mdash; Why client-side HTTP requests?</strong></p>
+    <p style="margin: 0; color: #1f2d3d; font-size: 0.95rem;">Client-side HTTP requests let web applications talk to external servers <strong>without reloading the page</strong> &mdash; the foundation of dynamic, data-driven apps. JavaScript handles this with <strong>AJAX</strong> (Asynchronous JavaScript and XML) or the newer <code>fetch</code> API.</p>
+</div>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">📚 What We'll Build Today</h2>
+<p style="color: #1f2d3d; margin-bottom: 16px;">We breathe life into the Task Manager: the app will <strong>Read</strong> user input, <strong>Render</strong> visual elements, and <strong>Fetch</strong> data from the cloud. Click each part to expand the details.</p>
+<details style="background-color: #ffffff; border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; border: 1px solid #dde5ec;">
+    <summary style="cursor: pointer; color: #0d2c4f; font-size: 1.05rem;"><strong>Part 1 &middot; Understanding the DOM</strong> &mdash; The tree we manipulate</summary>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;">The <strong>Document Object Model</strong> is a tree structure. When we write <code>$("#list")</code>, jQuery starts at <code>document</code> and hunts down the tree until it finds the unique ID. When we use <code>.append()</code>, we programmatically grow new "branches" (HTML elements) onto that part of the tree.</p>
+    <pre style="background-color: #0d2c4f; color: #e8f0f8; border-radius: 8px; padding: 16px; font-size: 0.85rem; overflow-x: auto;">🌳 THE DOM TREE
+      [ window ]
+          │
+     [ document ]
+          │
+      &lt;html&gt;
+      /      \
+  &lt;head&gt;    &lt;body&gt;
+              │
+    ┌─────────┼──────────────┐
+ &lt;header&gt;   &lt;main&gt;        &lt;footer&gt;
+              │
+         &lt;section .card&gt;
+              │
+     ┌────────┴────────┐
+  &lt;form&gt;            &lt;div id="list"&gt;  ◄── THE TARGET
+     │                 ├── (We inject Task 1 here)
+  &lt;input&gt;              └── (We inject Task 2 here)</pre>
+</details>
+<details style="background-color: #ffffff; border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; border: 1px solid #dde5ec;">
+    <summary style="cursor: pointer; color: #0d2c4f; font-size: 1.05rem;"><strong>Part 2 &middot; Capturing Data (Input)</strong> &mdash; <code>.val()</code> and the <code>saveTask()</code> function</summary>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;">When the user clicks "Save", we extract what they typed. The jQuery <code>.val()</code> method grabs the current text inside an input field. We then package those values into a <code>Task</code> object using the class we built in Session 1.</p>
+</details>
+<details style="background-color: #ffffff; border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; border: 1px solid #dde5ec;">
+    <summary style="cursor: pointer; color: #0d2c4f; font-size: 1.05rem;"><strong>Part 3 &middot; Rendering Data (Output)</strong> &mdash; Template literals &amp; "Local Echo"</summary>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;">We convert the JavaScript object back into HTML using <strong>Template Literals</strong> (backticks <code>``</code>) to mix HTML strings with variables <code>${var}</code> &mdash; including <strong>dynamic styling</strong> like <code>style="border-color:${task.color}"</code>. Fill out the form, click save, and watch the task appear instantly. This is called <strong>"Local Echo"</strong>.</p>
+</details>
+<details style="background-color: #ffffff; border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; border: 1px solid #dde5ec;">
+    <summary style="cursor: pointer; color: #0d2c4f; font-size: 1.05rem;"><strong>Part 4 &middot; Asynchronous Data (AJAX GET)</strong> &mdash; The "Waiter" metaphor</summary>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;">The local echo is temporary &mdash; refresh and it disappears. We need real data from the server. Think of AJAX as a <strong>waiter in a restaurant</strong>:</p>
+    <ul style="color: #1f2d3d; margin: 6px 0;">
+        <li><strong>Request:</strong> You (Client) tell the waiter (AJAX): "Get me the menu."</li>
+        <li><strong>Async:</strong> While the waiter goes to the kitchen (Server), you sit at the table &mdash; you don't freeze.</li>
+        <li><strong>Response:</strong> The waiter returns with the menu (JSON data).</li>
+        <li><strong>Callback:</strong> You read the menu (<code>success</code> function).</li>
+    </ul>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;">Example of the jQuery AJAX pattern we'll use:</p>
+    <pre style="background-color: #0d2c4f; color: #e8f0f8; border-radius: 8px; padding: 16px; font-size: 0.85rem; overflow-x: auto;">$.ajax({
+    type: "GET",      // HTTP Verb: READ
+    url: API,         // Destination
+    dataType: "json", // Expected format
+    success: function(data) {
+        console.log("Server responded with:", data);
+    },
+    error: function(err) {
+        console.error("Error fetching data", err);
+    }
+});</pre>
+</details>
+<details style="background-color: #ffffff; border-radius: 10px; padding: 14px 18px; margin-bottom: 28px; border: 1px solid #dde5ec;">
+    <summary style="cursor: pointer; color: #0d2c4f; font-size: 1.05rem;"><strong>Part 5 &middot; Wiring It Up</strong> &mdash; Hooking the button &amp; loading on start</summary>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;">We update <code>init()</code> to hook up the Save button with <code>$("#btnSave").click(saveTask)</code> and call <code>loadTasks()</code> so data loads from the server the moment the app starts.</p>
+</details>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 28px;">
+    <div style="flex: 1 1 300px; background-color: #f7fafc; border-radius: 10px; padding: 18px 22px; border: 1px solid #dde5ec;">
+        <h3 style="margin: 0 0 10px 0; color: #0d2c4f; font-size: 1.1rem;">🔧 Before You Arrive</h3>
+        <ul style="color: #1f2d3d; margin: 0; padding-left: 20px;">
+            <li style="margin-bottom: 6px;">Your <strong>Session 1 project</strong> (TaskManager folder) working with no console errors.</li>
+            <li>VS Code and Chrome/Firefox ready to go.</li>
+        </ul>
+    </div>
+    <div style="flex: 1 1 300px; background-color: #f0f7f2; border-radius: 10px; padding: 18px 22px; border: 1px solid #cfe5d6;">
+        <h3 style="margin: 0 0 10px 0; color: #1d6b3a; font-size: 1.1rem;">✅ You're Done When...</h3>
+        <ul style="color: #1f2d3d; margin: 0; padding-left: 20px;">
+            <li style="margin-bottom: 6px;"><strong>Form works:</strong> clicking "Save" adds a visual card to the list immediately.</li>
+            <li style="margin-bottom: 6px;"><strong>Server connected:</strong> on page load you see existing server tasks (check the Console for <code>"Server responded with..."</code>).</li>
+            <li><strong>Visual feedback:</strong> tasks show different border colors based on the data received.</li>
+        </ul>
+    </div>
+</div>
+<div style="background-color: #0d2c4f; border-radius: 10px; padding: 16px 22px; text-align: center;">
+    <p style="margin: 0; color: #d6e4f0; font-size: 0.95rem;">🚀 <strong style="color: #ffffff;">Next up &mdash; Session 3:</strong> POST, PUT &amp; Server Logic</p>
+</div>

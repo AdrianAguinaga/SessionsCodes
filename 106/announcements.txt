@@ -1,0 +1,59 @@
+<p>&nbsp;</p>
+<div style="background: linear-gradient(135deg, #0d2c4f 0%, #16456f 60%, #1b5a8a 100%); border-radius: 12px; padding: 32px 28px; color: #ffffff; margin-bottom: 24px;">
+    <p style="margin: 0 0 6px 0; font-size: 0.85rem; color: #ffb3b3;"><strong>FSDI 106 &middot; Full Stack Development Immersive &middot; Cohort 69</strong></p>
+    <h1 style="margin: 0 0 10px 0; color: #ffffff; font-size: 1.9rem; line-height: 1.2; border: none;">📚 Course Resources</h1>
+    <p style="margin: 0; font-size: 1rem; color: #d6e4f0;">Welcome everyone! Below you will find the Zoom links for each session of our course. Recordings and the general repository will be available soon.</p>
+    <p style="margin: 14px 0 0 0;"><span style="background-color: #d23939; color: #ffffff; padding: 5px 14px; border-radius: 20px; font-size: 0.85rem; display: inline-block;">📅 4 Sessions</span></p>
+</div>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">📹 Live Sessions</h2>
+<table style="border-collapse: collapse; width: 100%; margin-bottom: 28px; border-radius: 10px; overflow: hidden;" border="0">
+    <thead>
+        <tr style="background-color: #0d2c4f;">
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem; width: 70px;">Session</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: left; font-size: 0.95rem;">Topic &amp; Time</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem;">Zoom Link</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem;">Passcode</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem;">Recording</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: #ffffff;">
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center;"><span style="background-color: #0d2c4f; color: #ffffff; padding: 4px 12px; border-radius: 14px; font-size: 0.85rem; white-space: nowrap;"><strong>1 / 4</strong></span></td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; color: #1f2d3d;"><strong style="color: #0d2c4f;">💻 Session 1: Architecture, Models &amp; Styles</strong><br /><span style="color: #5a6b7c; font-size: 0.9rem;">📅 Mon, Jul 20, 2026 @ 5:00 PM PT</span></td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center;"><a style="background-color: #d23939; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; display: inline-block; white-space: nowrap;" href="https://us02web.zoom.us/j/85190755538?pwd=bWL6e0yvELmfUEnT0eB1VUlJXZ21dC.1" target="_blank" rel="noopener">🔗 Join</a></td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center; font-family: monospace; color: #0d2c4f; font-size: 0.95rem;">307810</td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center;"><span style="background-color: #eef1f4; color: #8a99a8; padding: 5px 14px; border-radius: 14px; font-size: 0.85rem; white-space: nowrap;">⏳<a href="https://us02web.zoom.us/rec/share/G56m94b4ArSXelAtrzUEt_NAIUmLHyypLVuklWQdyfC52V0B7YObZl4Vhn3p_CkO.2VqKt4aAvFwrzp3J">Session 1</a></span></td>
+        </tr>
+        <tr style="background-color: #f7fafc;">
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center;"><span style="background-color: #0d2c4f; color: #ffffff; padding: 4px 12px; border-radius: 14px; font-size: 0.85rem; white-space: nowrap;"><strong>2 / 4</strong></span></td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; color: #1f2d3d;"><strong style="color: #0d2c4f;">🖱️ Session 2: The DOM, Events &amp; Reading Data</strong><br /><span style="color: #5a6b7c; font-size: 0.9rem;">📅 Wed, Jul 22, 2026 @ 5:00 PM PT</span></td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center;"><a style="background-color: #d23939; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; display: inline-block; white-space: nowrap;" href="https://us02web.zoom.us/j/89888393414?pwd=K3tzcVG2J243w8vGue7XblycoOZPGm.1" target="_blank" rel="noopener">🔗 Join</a></td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center; font-family: monospace; color: #0d2c4f; font-size: 0.95rem;">198820</td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center;"><span style="background-color: #eef1f4; color: #8a99a8; padding: 5px 14px; border-radius: 14px; font-size: 0.85rem; white-space: nowrap;">⏳ <a href="https://us02web.zoom.us/rec/share/YX1KW60-4JQScQH03dc17CJ7tD-YGupu5RMjuHszO5E_ai-gS96_LhN9W4DLkEeV.IpFi-XueLJnh_1LQ">Session 2</a></span></td>
+        </tr>
+        <tr style="background-color: #ffffff;">
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center;"><span style="background-color: #0d2c4f; color: #ffffff; padding: 4px 12px; border-radius: 14px; font-size: 0.85rem; white-space: nowrap;"><strong>3 / 4</strong></span></td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; color: #1f2d3d;"><strong style="color: #0d2c4f;">🧠 Session 3: Client&ndash;Server Communication (POST)</strong><br /><span style="color: #5a6b7c; font-size: 0.9rem;">📅 Sat, Jul 25, 2026 @ 12:00 PM PT</span></td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center;"><a style="background-color: #d23939; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; display: inline-block; white-space: nowrap;" href="https://us02web.zoom.us/j/89932031626?pwd=Ps0xrajw177UrC7h9L4vTaUM71JOcK.1" target="_blank" rel="noopener">🔗 Join</a></td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center; font-family: monospace; color: #0d2c4f; font-size: 0.95rem;">702425</td>
+            <td style="padding: 14px; border-bottom: 1px solid #e4eaf0; text-align: center;"><span style="background-color: #eef1f4; color: #8a99a8; padding: 5px 14px; border-radius: 14px; font-size: 0.85rem; white-space: nowrap;">⏳ <a href="https://us02web.zoom.us/rec/share/Y611I_12suw5jN3TwzIYkvLfz7n0SuKq4RUPVyEEX38-uRh5r0Yhcgv5d0dwABjX.r0xqwc-2CK_1tRyu">Session 3</a></span></td>
+        </tr>
+        <tr style="background-color: #f7fafc;">
+            <td style="padding: 14px; text-align: center;"><span style="background-color: #0d2c4f; color: #ffffff; padding: 4px 12px; border-radius: 14px; font-size: 0.85rem; white-space: nowrap;"><strong>4 / 4</strong></span></td>
+            <td style="padding: 14px; color: #1f2d3d;"><strong style="color: #0d2c4f;">🚀 Session 4: Deletion, Delegation &amp; Advanced Logic</strong><br /><span style="color: #5a6b7c; font-size: 0.9rem;">📅 Mon, Jul 27, 2026 @ 5:00 PM PT</span></td>
+            <td style="padding: 14px; text-align: center;"><a style="background-color: #d23939; color: #ffffff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; display: inline-block; white-space: nowrap;" href="https://us02web.zoom.us/j/87050123968?pwd=eTnc7wQrblWtXH7bXyXOHWNrpKXHJS.1" target="_blank" rel="noopener">🔗 Join</a></td>
+            <td style="padding: 14px; text-align: center; font-family: monospace; color: #0d2c4f; font-size: 0.95rem;">199333</td>
+            <td style="padding: 14px; text-align: center;"><span style="background-color: #eef1f4; color: #8a99a8; padding: 5px 14px; border-radius: 14px; font-size: 0.85rem; white-space: nowrap;">⏳ Pending</span></td>
+        </tr>
+    </tbody>
+</table>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">📁 General Repository</h2>
+<div style="background-color: #f7fafc; border: 1px dashed #b9c6d2; border-radius: 10px; padding: 18px 22px; margin-bottom: 28px;">
+    <p style="margin: 0; color: #5a6b7c;"><span style="background-color: #eef1f4; color: #8a99a8; padding: 5px 14px; border-radius: 14px; font-size: 0.85rem; margin-right: 10px; white-space: nowrap;">⏳<a href="https://github.com/AdrianAguinaga/TaskManager106-ch69.git"> Repo</a></span>&nbsp;The repository with all course code (Task Manager project, session by session) will be published here soon.</p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div style="background-color: #0d2c4f; border-radius: 10px; padding: 18px 22px; text-align: center;">
+    <p style="margin: 0 0 4px 0; color: #ffffff; font-size: 1rem;"><strong>❓ Questions or access issues?</strong></p>
+    <p style="margin: 0; color: #d6e4f0; font-size: 0.95rem;">Please send a message through Canvas. Thank you! 👋</p>
+</div>
