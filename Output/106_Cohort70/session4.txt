@@ -1,0 +1,164 @@
+<p>&nbsp;</p>
+<div style="background: linear-gradient(135deg, #0d2c4f 0%, #16456f 60%, #1b5a8a 100%); border-radius: 12px; padding: 32px 28px; color: #ffffff; margin-bottom: 24px;">
+    <p style="margin: 0 0 6px 0; font-size: 0.85rem; color: #ffb3b3;"><strong>FSDI 106 &middot; Full Stack Development Immersive</strong></p>
+    <h1 style="margin: 0px 0px 10px; color: #ffffff; font-size: 1.9rem; line-height: 1.2; border: medium none currentcolor;">Session 4: Deletion, Delegation &amp; Advanced Logic</h1>
+    <p style="margin: 0; font-size: 1rem; color: #d6e4f0;">Implement AJAX DELETE, solve the "dynamic element" click problem with Event Delegation, and add client-side filtering &mdash; completing your full stack app.</p>
+    <p style="margin: 14px 0 0 0;"><span style="background-color: #d23939; color: #ffffff; padding: 5px 14px; border-radius: 20px; font-size: 0.85rem; margin-right: 8px; display: inline-block;">⏱ 3-Hour Session</span> <span style="background-color: rgba(255,255,255,0.15); color: #ffffff; padding: 5px 14px; border-radius: 20px; font-size: 0.85rem; display: inline-block;">🏆 Final Session &middot; CRUD Complete</span></p>
+</div>
+<div style="background-color: #ffffff; border-radius: 12px; padding: 24px 28px; margin-bottom: 24px; border: 2px solid #d23939;">
+    <h2 style="margin: 0px 0px 4px; color: #0d2c4f; font-size: 1.3rem; border: medium none currentcolor;">📹 Join the Live Session</h2>
+    <p style="margin: 0 0 16px 0; color: #5a6b7c; font-size: 0.9rem;">FSDI 106 &middot; Session 4 &middot; Cohort 70</p>
+    <p style="margin: 0 0 16px 0; font-size: 1.05rem; color: #1f2d3d;"><strong>📅 Saturday, August 29, 2026 &mdash; 9:00 AM Pacific Time (US &amp; Canada)</strong></p>
+    <p style="margin: 0 0 18px 0;"><a class="Button" style="background-color: #d23939; color: #ffffff; padding: 13px 34px; border-radius: 8px; text-decoration: none; font-size: 1.05rem; display: inline-block;" href="https://us02web.zoom.us/j/89580423580?pwd=b1BmnTK8kcquE8GuiHZasx0zWuIlMg.1" target="_blank" rel="noopener">▶&nbsp; Join Zoom Meeting</a></p>
+    <table style="border-collapse: collapse; width: auto;">
+        <tbody>
+            <tr>
+                <td style="padding: 4px 18px 4px 0; color: #5a6b7c; font-size: 0.95rem;"><strong>Meeting ID</strong></td>
+                <td style="padding: 4px 0; font-family: monospace; font-size: 1rem; color: #0d2c4f;">895 8042 3580</td>
+            </tr>
+            <tr>
+                <td style="padding: 4px 18px 4px 0; color: #5a6b7c; font-size: 0.95rem;"><strong>Passcode</strong></td>
+                <td style="padding: 4px 0; font-family: monospace; font-size: 1rem; color: #0d2c4f;">471487</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p>&nbsp;</p>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">📋 Session Overview</h2>
+<table style="border-collapse: collapse; width: 100%; margin-bottom: 28px; border-radius: 10px; overflow: hidden;" border="0">
+    <thead>
+        <tr style="background-color: #0d2c4f;">
+            <th style="padding: 12px 14px; color: #ffffff; text-align: left; font-size: 0.95rem;">Activity</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem;">Due</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem;">Format</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem;">Grading %</th>
+            <th style="padding: 12px 14px; color: #ffffff; text-align: center; font-size: 0.95rem;">Outcome</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: #ffffff;">
+            <td style="padding: 12px 14px; border-bottom: 1px solid #e4eaf0; color: #1f2d3d;">📝 Take Post-Test</td>
+            <td style="padding: 12px 14px; border-bottom: 1px solid #e4eaf0; text-align: center; color: #1f2d3d;">Class 4</td>
+            <td style="padding: 12px 14px; border-bottom: 1px solid #e4eaf0; text-align: center;"><span style="background-color: #eef3f8; color: #0d2c4f; padding: 3px 12px; border-radius: 14px; font-size: 0.85rem;">Quiz</span></td>
+            <td style="padding: 12px 14px; border-bottom: 1px solid #e4eaf0; text-align: center; color: #8a99a8;">&mdash;</td>
+            <td style="padding: 12px 14px; border-bottom: 1px solid #e4eaf0; text-align: center; color: #8a99a8;">&mdash;</td>
+        </tr>
+        <tr style="background-color: #f7fafc;">
+            <td style="padding: 12px 14px; color: #1f2d3d;">📹 Connect to Zoom Session</td>
+            <td style="padding: 12px 14px; text-align: center; color: #1f2d3d;">Class 4</td>
+            <td style="padding: 12px 14px; text-align: center;"><span style="background-color: #eef3f8; color: #0d2c4f; padding: 3px 12px; border-radius: 14px; font-size: 0.85rem;">Attendance</span></td>
+            <td style="padding: 12px 14px; text-align: center; color: #1f2d3d;"><strong>10%</strong></td>
+            <td style="padding: 12px 14px; text-align: center; color: #8a99a8;">&mdash;</td>
+        </tr>
+    </tbody>
+</table>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">🎯 Learning Objectives</h2>
+<p style="color: #1f2d3d;">By the end of this 3-hour session, you will be able to:</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+    <div style="flex: 1 1 280px; background-color: #f7fafc; border-left: 4px solid #d23939; border-radius: 0 8px 8px 0; padding: 12px 16px; color: #1f2d3d;">✅ Give DOM elements an <strong>identity</strong> by binding the server-generated ID to the HTML.</div>
+    <div style="flex: 1 1 280px; background-color: #f7fafc; border-left: 4px solid #d23939; border-radius: 0 8px 8px 0; padding: 12px 16px; color: #1f2d3d;">✅ Explain <strong>event bubbling</strong> and use <strong>Event Delegation</strong> to handle clicks on dynamic elements.</div>
+    <div style="flex: 1 1 280px; background-color: #f7fafc; border-left: 4px solid #d23939; border-radius: 0 8px 8px 0; padding: 12px 16px; color: #1f2d3d;">✅ Implement an AJAX <strong>DELETE</strong> request targeting a specific resource by ID.</div>
+    <div style="flex: 1 1 280px; background-color: #f7fafc; border-left: 4px solid #d23939; border-radius: 0 8px 8px 0; padding: 12px 16px; color: #1f2d3d;">✅ Use jQuery <strong>traversal</strong> (<code>this</code>, <code>.parents()</code>, <code>.attr()</code>) to navigate the DOM tree.</div>
+    <div style="flex: 1 1 280px; background-color: #f7fafc; border-left: 4px solid #d23939; border-radius: 0 8px 8px 0; padding: 12px 16px; color: #1f2d3d;">✅ Build <strong>client-side filtering</strong> that shows/hides tasks without calling the server.</div>
+    <div style="flex: 1 1 280px; background-color: #f7fafc; border-left: 4px solid #d23939; border-radius: 0 8px 8px 0; padding: 12px 16px; color: #1f2d3d;">✅ Describe the complete <strong>CRUD cycle</strong> of your full stack application.</div>
+</div>
+<div style="background-color: #fdf3f3; border-radius: 10px; padding: 16px 22px; margin-bottom: 28px; border: 1px solid #f0c9c9;">
+    <p style="margin: 0 0 8px 0; color: #0d2c4f;"><strong>💡 Key Concept &mdash; Why does <code>$(".btn-delete").click(...)</code> fail?</strong></p>
+    <p style="margin: 0; color: #1f2d3d; font-size: 0.95rem;">Because when <code>init()</code> runs, those delete buttons <strong>don't exist yet</strong> &mdash; they're created later when data loads from the server. The solution is <strong>Event Delegation</strong>: attach the listener to a parent that always exists (<code>.list</code>) and let the click "bubble up" to it.</p>
+</div>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">📚 What We'll Build Today</h2>
+<p style="color: #1f2d3d; margin-bottom: 16px;">Today we complete the <strong>CRUD cycle</strong> of the Task Manager and make the interface truly interactive. Click each part to expand the details.</p>
+<details style="background-color: #ffffff; border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; border: 1px solid #dde5ec;">
+    <summary style="cursor: pointer; color: #0d2c4f; font-size: 1.05rem;"><strong>Part 1 &middot; The "Identity" Problem</strong> &mdash; Binding the server ID to the DOM</summary>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;">To delete a specific task, the DOM element must know <em>which</em> task it represents. We update <code>displayTask()</code> to add <code>id="${task.id}"</code> (the ID generated by the server in Session 3) to the parent <code>&lt;div&gt;</code>, plus a <code>&lt;button class="btn-delete"&gt;🗑️&lt;/button&gt;</code> on every card.</p>
+</details>
+<details style="background-color: #ffffff; border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; border: 1px solid #dde5ec;">
+    <summary style="cursor: pointer; color: #0d2c4f; font-size: 1.05rem;"><strong>Part 2 &middot; Event Delegation</strong> &mdash; Catching clicks "higher up" the tree</summary>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;">When a user clicks the trash icon on a <em>new</em> task, the click <strong>bubbles up</strong> the DOM tree until something catches it:</p>
+    <pre style="background-color: #0d2c4f; color: #e8f0f8; border-radius: 8px; padding: 16px; font-size: 0.85rem; overflow-x: auto;">📡 EVENT DELEGATION VISUALIZED
+
+ 1. [ Trash Icon ]  ◄── CLICK!
+      │                "Do I have a listener?" NO.
+      ▼ (Bubbles Up)
+
+ 2. [ Task Div ]    ◄── "Do I have a listener?" NO.
+      │
+      ▼ (Bubbles Up)
+
+ 3. [ #list Div ]   ◄── "Do I have a listener?" YES!
+      │                We attached: $(".list").on("click", ...)
+      │
+      └── Logic: "Was the actual target a '.btn-delete'?
+          YES &rarr; Execute deleteTask()"</pre>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;">In code, we replace the old direct binding with the delegated version:</p>
+    <pre style="background-color: #0d2c4f; color: #e8f0f8; border-radius: 8px; padding: 16px; font-size: 0.85rem; overflow-x: auto;">// OLD WAY (doesn't work for dynamic items):
+// $(".btn-delete").click(deleteTask);
+
+// NEW WAY (Event Delegation):
+$(".list").on("click", ".btn-delete", deleteTask);</pre>
+</details>
+<details style="background-color: #ffffff; border-radius: 10px; padding: 14px 18px; margin-bottom: 10px; border: 1px solid #dde5ec;">
+    <summary style="cursor: pointer; color: #0d2c4f; font-size: 1.05rem;"><strong>Part 3 &middot; AJAX DELETE</strong> &mdash; Remove from server, then from screen</summary>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;">Inside <code>deleteTask()</code>, four moves happen before the request:</p>
+    <ul style="color: #1f2d3d; margin: 6px 0;">
+        <li style="margin-bottom: 4px;"><strong>Context:</strong> <code>this</code> is the specific button that was clicked.</li>
+        <li style="margin-bottom: 4px;"><strong>Traversal:</strong> <code>.parents(".task")</code> climbs up to the task card.</li>
+        <li style="margin-bottom: 4px;"><strong>Extraction:</strong> <code>.attr("id")</code> reads the unique ID we stored in the HTML.</li>
+        <li><strong>Communication:</strong> <code>type: "DELETE"</code> to <code>API + "/" + id</code>; on success, <code>fadeOut(500)</code> then <code>.remove()</code> from the DOM tree.</li>
+    </ul>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;"><strong>Server side:</strong> the backend simply filters the array &mdash; <code>DB = DB.filter(t =&gt; t.id !== id)</code>.</p>
+</details>
+<details style="background-color: #ffffff; border-radius: 10px; padding: 14px 18px; margin-bottom: 28px; border: 1px solid #dde5ec;">
+    <summary style="cursor: pointer; color: #0d2c4f; font-size: 1.05rem;"><strong>Part 4 &middot; Client-Side Filtering</strong> &mdash; Logic that never touches the server</summary>
+    <p style="margin: 12px 0 6px 0; color: #1f2d3d;">We add <strong>All / Completed / Pending</strong> filter buttons above the list. The <code>filterTasks(status)</code> function hides every task, then loops with <code>.each()</code>, reads the text inside <code>&lt;label class="status"&gt;</code>, and shows only the cards that match. No HTTP request needed &mdash; this is pure DOM logic with <code>.show()</code> and <code>.hide()</code>.</p>
+</details>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">🏆 Course Wrap-Up: You Built a Full Stack App!</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 28px;">
+    <div style="flex: 1 1 200px; background-color: #ffffff; border-width: 4px 1px 1px; border-style: solid; border-color: #d23939 #dde5ec #dde5ec; border-radius: 8px; padding: 14px 16px; text-align: center;">
+        <p style="margin: 0 0 4px 0; font-size: 1.4rem;">➕</p>
+        <p style="margin: 0 0 4px 0; color: #0d2c4f;"><strong>Create</strong></p>
+        <p style="margin: 0; color: #5a6b7c; font-size: 0.9rem;">Tasks saved to the cloud (POST)</p>
+    </div>
+    <div style="flex: 1 1 200px; background-color: #ffffff; border-width: 4px 1px 1px; border-style: solid; border-color: #d23939 #dde5ec #dde5ec; border-radius: 8px; padding: 14px 16px; text-align: center;">
+        <p style="margin: 0 0 4px 0; font-size: 1.4rem;">📖</p>
+        <p style="margin: 0 0 4px 0; color: #0d2c4f;"><strong>Read</strong></p>
+        <p style="margin: 0; color: #5a6b7c; font-size: 0.9rem;">Tasks loaded on startup (GET)</p>
+    </div>
+    <div style="flex: 1 1 200px; background-color: #ffffff; border-width: 4px 1px 1px; border-style: solid; border-color: #d23939 #dde5ec #dde5ec; border-radius: 8px; padding: 14px 16px; text-align: center;">
+        <p style="margin: 0 0 4px 0; font-size: 1.4rem;">✏️</p>
+        <p style="margin: 0 0 4px 0; color: #0d2c4f;"><strong>Update</strong></p>
+        <p style="margin: 0; color: #5a6b7c; font-size: 0.9rem;">Tested PUT via the console</p>
+    </div>
+    <div style="flex: 1 1 200px; background-color: #ffffff; border-width: 4px 1px 1px; border-style: solid; border-color: #d23939 #dde5ec #dde5ec; border-radius: 8px; padding: 14px 16px; text-align: center;">
+        <p style="margin: 0 0 4px 0; font-size: 1.4rem;">🗑️</p>
+        <p style="margin: 0 0 4px 0; color: #0d2c4f;"><strong>Delete</strong></p>
+        <p style="margin: 0; color: #5a6b7c; font-size: 0.9rem;">Tasks removed by ID (DELETE)</p>
+    </div>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 28px;">
+    <div style="flex: 1 1 300px; background-color: #f7fafc; border-radius: 10px; padding: 18px 22px; border: 1px solid #dde5ec;">
+        <h3 style="margin: 0 0 10px 0; color: #0d2c4f; font-size: 1.1rem;">🔧 Before You Arrive</h3>
+        <ul style="color: #1f2d3d; margin: 0; padding-left: 20px;">
+            <li style="margin-bottom: 6px;">Your <strong>Session 3 project</strong> working: POST persists tasks, and they survive a refresh.</li>
+            <li>DevTools ready &mdash; we'll verify DELETE requests in the Network tab.</li>
+        </ul>
+    </div>
+    <div style="flex: 1 1 300px; background-color: #f0f7f2; border-radius: 10px; padding: 18px 22px; border: 1px solid #cfe5d6;">
+        <h3 style="margin: 0 0 10px 0; color: #1d6b3a; font-size: 1.1rem;">✅ You're Done When...</h3>
+        <ul style="color: #1f2d3d; margin: 0; padding-left: 20px;">
+            <li style="margin-bottom: 6px;">Clicking the trash icon <strong>fades out</strong> the task and it stays gone after a refresh.</li>
+            <li style="margin-bottom: 6px;">The <strong>filter buttons</strong> show/hide tasks by status instantly, with no server call.</li>
+            <li>You can explain why the delete listener lives on <code>.list</code> and not on the buttons.</li>
+        </ul>
+    </div>
+</div>
+<div style="background-color: #f0f7f2; border-radius: 10px; padding: 18px 22px; margin-bottom: 28px; border: 1px solid #cfe5d6;">
+    <h3 style="margin: 0 0 10px 0; color: #1d6b3a; font-size: 1.1rem;">🚀 Next Steps: Take It Live</h3>
+    <ul style="color: #1f2d3d; margin: 0; padding-left: 20px;">
+        <li style="margin-bottom: 6px;">Deploy your <code>index.html</code>, <code>scripts/</code>, and <code>style/</code> folders to <strong>GitHub Pages</strong> or <strong>Netlify</strong>.</li>
+        <li>The backend (Azure Function) is already live and will work from anywhere!</li>
+    </ul>
+</div>
+<div style="background-color: #0d2c4f; border-radius: 10px; padding: 16px 22px; text-align: center;">
+    <p style="margin: 0; color: #d6e4f0; font-size: 0.95rem;">🎉 <strong style="color: #ffffff;">Congratulations!</strong> You've completed the FSDI 106 Task Manager &mdash; a real, cloud-connected full stack application.</p>
+</div>
