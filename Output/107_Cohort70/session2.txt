@@ -1,0 +1,88 @@
+<div style="background: linear-gradient(135deg, #0d2c4f 0%, #16456f 60%, #1b5a8a 100%); border-radius: 12px; padding: 32px 28px; color: #ffffff; margin-bottom: 24px;">
+    <div style="color: #ffb3b3; font-size: 0.85rem; margin-bottom: 8px;">🚀 FSDI 107 &bull; Session 2</div>
+    <h1 style="color: #ffffff; margin: 0 0 12px 0; font-size: 2rem;">Dynamic Rendering &amp; Component Reusability</h1>
+    <p style="color: #d6e4f0; margin: 0; font-size: 1.1rem;">Welcome to Session 2! Today, we will build a fully functional product catalog by leveraging reusable React components, passing data via props, and utilizing modern JavaScript array methods to handle data dynamically.</p>
+    <div style="margin-top: 16px;"><span style="background-color: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 8px;">Cohort 70</span> <span style="background-color: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; font-size: 0.85rem;">Live Session</span></div>
+</div>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">📋 Course Overview</h2>
+<table style="border-collapse: collapse; width: 100%; margin-bottom: 28px; border-radius: 10px; overflow: hidden;" border="0">
+    <thead>
+        <tr style="background-color: #0d2c4f; color: #ffffff;">
+            <th style="padding: 12px; text-align: left;">Activity</th>
+            <th style="padding: 12px; text-align: center;">Due Day</th>
+            <th style="padding: 12px; text-align: center;">Format</th>
+            <th style="padding: 12px; text-align: center;">Grading %</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: #ffffff; border-bottom: 1px solid #e4eaf0;">
+            <td style="padding: 12px; color: #1f2d3d;">💻 Work on Assignment 2</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Class 3</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Assignment</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">6.66%</td>
+        </tr>
+        <tr style="background-color: #f7fafc; border-bottom: 1px solid #e4eaf0;">
+            <td style="padding: 12px; color: #1f2d3d;">🎥 Connect to Zoom Session</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Class 1</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Attendance</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">10%</td>
+        </tr>
+    </tbody>
+</table>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">🎥 Zoom Video Conference Class Session</h2>
+<div style="background-color: #ffffff; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #dde5ec;">
+    <p style="color: #1f2d3d; margin-top: 0;">SDGKU is inviting you to a scheduled Zoom meeting.</p>
+    <ul style="color: #5a6b7c; list-style-type: none; padding-left: 0;">
+        <li style="margin-bottom: 8px;">📌 <strong>Topic:</strong> 107 Session 2, Cohort 70</li>
+        <li style="margin-bottom: 8px;">⏰ <strong>Time:</strong> Sep 3, 2026 05:00 PM Pacific Time (US and Canada)</li>
+        <li style="margin-bottom: 8px;">🔑 <strong>Meeting ID:</strong> 895 8404 1101</li>
+        <li style="margin-bottom: 8px;">🔐 <strong>Passcode:</strong> 265468</li>
+    </ul>
+    <div style="margin-top: 20px; margin-bottom: 16px;"><a style="background-color: #d23939; color: #ffffff; padding: 13px 34px; border-radius: 8px; text-decoration: none; font-size: 1.05rem; display: inline-block;" href="https://us02web.zoom.us/j/89584041101?pwd=hs8bPGXGLSE92T24Tt0ERmTK4vXPPp.1" target="_blank" rel="noopener">▶ Join Zoom Meeting</a></div>
+    <div style="margin-top: 12px;">
+        <p style="margin-bottom: 6px; font-size: 0.95rem;">💬 <a style="color: #1b5a8a; text-decoration: none;" href="https://us02web.zoom.us/launch/jc/89584041101">Access Meeting Chat</a></p>
+        <p style="margin-bottom: 0; font-size: 0.95rem;">🤖 <a style="color: #1b5a8a; text-decoration: none;" href="https://us02web.zoom.us/launch/edl?muid=1da735f3-9c81-4e56-afb6-58e76e5547aa">View insights with Zoom AI Companion</a></p>
+    </div>
+</div>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">🎯 Learning Outcomes</h2>
+<div style="background-color: #ffffff; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #dde5ec;">
+    <h3 style="color: #0d2c4f; margin-top: 0;">📖 Lesson Objective &amp; Concepts</h3>
+    <p style="color: #1f2d3d; line-height: 1.6;">The goal of our lesson is to build a fully functional product catalog by leveraging <strong>reusable React components</strong>, passing data via <strong>props</strong>, and utilizing JavaScript array methods to handle data dynamically. We will introduce dynamic rendering of lists using the <code>map()</code> method combined with <strong>arrow functions</strong>, which allows us to efficiently generate UI elements from arrays of data.</p>
+    <h4 style="color: #1b5a8a; margin-top: 24px; margin-bottom: 12px;">Introduction to Arrow Functions</h4>
+    <p style="color: #1f2d3d; line-height: 1.6;"><strong>Arrow function expressions</strong> provide a concise and modern alternative to traditional function expressions in JavaScript. They simplify syntax, especially for inline functions used in React components, such as those passed to <code>map()</code>. However, arrow functions come with certain limitations compared to regular functions:</p>
+    <ul style="color: #5a6b7c; padding-left: 20px; margin-bottom: 0;">
+        <li style="margin-bottom: 8px;"><strong>No own <code>this</code> or <code>super</code> bindings:</strong> Arrow functions inherit <code>this</code> from their surrounding lexical context. They should not be used as object methods where a dynamic <code>this</code> is needed.</li>
+        <li style="margin-bottom: 8px;"><strong>No <code>arguments</code> or <code>new.target</code>:</strong> Arrow functions do not have their own <code>arguments</code> object or <code>new.target</code> keyword, which limits their use in some scenarios.</li>
+        <li style="margin-bottom: 8px;"><strong>Not suitable for <code>call()</code>, <code>apply()</code>, or <code>bind()</code>:</strong> Since arrow functions don&rsquo;t have their own <code>this</code>, these methods do not work as expected.</li>
+        <li style="margin-bottom: 8px;"><strong>Cannot be used as constructors:</strong> Arrow functions cannot be used with the <code>new</code> keyword to create instances.</li>
+    </ul>
+    <p style="color: #1f2d3d; line-height: 1.6; margin-top: 12px; margin-bottom: 0;">Despite these restrictions, arrow functions are ideal for React&rsquo;s functional programming style, especially in rendering lists and handling events concisely!</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 28px;">
+    <div style="flex: 1 1 300px; background-color: #fdf3f3; border-radius: 10px; padding: 20px 22px; border: 1px solid #f0c9c9;">
+        <h3 style="color: #d23939; margin-top: 0;">💡 Discussion &amp; Reflection</h3>
+        <ul style="color: #1f2d3d; padding-left: 20px; margin-bottom: 0;">
+            <li style="margin-bottom: 12px;"><strong>What is the role of props in component reuse?</strong><br /><span style="color: #5a6b7c;"><strong>Props</strong> allow components to receive dynamic data and configuration from their parent components. By passing different props, the same component can render varied content or behave differently, supporting modular and maintainable UI design.</span></li>
+            <li style="margin-bottom: 12px;"><strong>How does <code>map()</code> improve scalability?</strong><br /><span style="color: #5a6b7c;">The <code>map()</code> method iterates over arrays and produces a component for each item. This scales effortlessly as data grows, keeping our code <strong>DRY</strong> (Don&rsquo;t Repeat Yourself) and easy to maintain.</span></li>
+            <li><strong>Why does modular code matter in larger applications?</strong><br /><span style="color: #5a6b7c;">Modular code breaks down complex applications into manageable and reusable components. This improves maintainability by isolating functionality, facilitates collaboration, and accelerates development by reusing existing building blocks.</span></li>
+        </ul>
+    </div>
+    <div style="flex: 1 1 300px; background-color: #ffffff; border-radius: 10px; padding: 20px 22px; border: 1px solid #dde5ec;">
+        <h3 style="color: #0d2c4f; margin-top: 0;">🚀 Next Steps</h3>
+        <p style="color: #5a6b7c;">Get ready to code! We will be writing our own custom components and passing varied <strong>props</strong> into them to create dynamic user interfaces.</p>
+        <p style="color: #5a6b7c; margin-bottom: 0;">Make sure you have your local environment running and are prepared to follow along with the instructor during our hands-on session.</p>
+    </div>
+</div>
+<div style="background-color: #f0f7f2; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #cfe5d6;">
+    <h3 style="color: #1d6b3a; margin-top: 0;">✅ Summary</h3>
+    <p style="color: #1f2d3d;">By the end of this session, we will have accomplished the following:</p>
+    <ul style="color: #1f2d3d; padding-left: 20px; margin-bottom: 16px;">
+        <li style="margin-bottom: 6px;">Successfully passed data from parent to child components using <strong>props</strong>.</li>
+        <li style="margin-bottom: 6px;">Dynamically rendered multiple items on the screen using the <strong><code>map()</code></strong> array method.</li>
+        <li style="margin-bottom: 0;">Mastered the syntax and rules for using <strong>arrow functions</strong> effectively within React components.</li>
+    </ul>
+    <p style="color: #1f2d3d; font-style: italic; margin-bottom: 0;">This lesson guides us through these concepts by building a real-world product catalog that dynamically renders items using modern JavaScript techniques.</p>
+</div>
+<div style="background-color: #0d2c4f; border-radius: 10px; padding: 16px 22px; text-align: center; color: #d6e4f0; margin-top: 32px;">
+    <p style="margin: 0; font-size: 0.95rem;">🚀 <strong>FSDI 106 / 107 - Full Stack Development Immersive</strong> | San Diego Global Knowledge University</p>
+</div>

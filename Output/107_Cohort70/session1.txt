@@ -1,0 +1,90 @@
+<div style="background: linear-gradient(135deg, #0d2c4f 0%, #16456f 60%, #1b5a8a 100%); border-radius: 12px; padding: 32px 28px; color: #ffffff; margin-bottom: 24px;">
+    <div style="color: #ffb3b3; font-size: 0.85rem; margin-bottom: 8px;">🚀 FSDI 107 &bull; Session 1</div>
+    <h1 style="color: #ffffff; margin: 0 0 12px 0; font-size: 2rem;">Introduction to React &amp; Course Overview</h1>
+    <p style="color: #d6e4f0; margin: 0; font-size: 1.1rem;">Welcome to our first session! Today, we will set the foundation for our upcoming projects by exploring React basics, understanding component architecture, and setting up our development environment together.</p>
+    <div style="margin-top: 16px;"><span style="background-color: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-right: 8px;">Cohort 70</span> <span style="background-color: rgba(255,255,255,0.2); padding: 4px 10px; border-radius: 20px; font-size: 0.85rem;">Live Session</span></div>
+</div>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">📋 Course Overview</h2>
+<table style="border-collapse: collapse; width: 100%; margin-bottom: 28px; border-radius: 10px; overflow: hidden;" border="0">
+    <thead>
+        <tr style="background-color: #0d2c4f; color: #ffffff;">
+            <th style="padding: 12px; text-align: left;">Activity</th>
+            <th style="padding: 12px; text-align: center;">Due Day</th>
+            <th style="padding: 12px; text-align: center;">Format</th>
+            <th style="padding: 12px; text-align: center;">Grading %</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="background-color: #ffffff; border-bottom: 1px solid #e4eaf0;">
+            <td style="padding: 12px; color: #1f2d3d;">📝 Take Pre-Test</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Class 1</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Quiz</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">-</td>
+        </tr>
+        <tr style="background-color: #f7fafc; border-bottom: 1px solid #e4eaf0;">
+            <td style="padding: 12px; color: #1f2d3d;">💻 Work on Assignment 1</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Class 3</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Assignment</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">6.66%</td>
+        </tr>
+        <tr style="background-color: #ffffff; border-bottom: 1px solid #e4eaf0;">
+            <td style="padding: 12px; color: #1f2d3d;">🎥 Connect to Zoom Session</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Class 1</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">Attendance</td>
+            <td style="padding: 12px; text-align: center; color: #5a6b7c;">10%</td>
+        </tr>
+    </tbody>
+</table>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">🎥 Zoom Video Conference Class Session</h2>
+<div style="background-color: #ffffff; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #dde5ec;">
+    <p style="color: #1f2d3d; margin-top: 0;">SDGKU is inviting you to a scheduled Zoom meeting.</p>
+    <ul style="color: #5a6b7c; list-style-type: none; padding-left: 0;">
+        <li style="margin-bottom: 8px;">📌 <strong>Topic:</strong> 107 Session 1, Cohort 70</li>
+        <li style="margin-bottom: 8px;">⏰ <strong>Time:</strong> Sep 1, 2026 05:00 PM Pacific Time (US and Canada)</li>
+        <li style="margin-bottom: 8px;">🔑 <strong>Meeting ID:</strong> 822 5936 8779</li>
+        <li style="margin-bottom: 8px;">🔐 <strong>Passcode:</strong> 698276</li>
+    </ul>
+    <div style="margin-top: 20px; margin-bottom: 16px;"><a style="background-color: #d23939; color: #ffffff; padding: 13px 34px; border-radius: 8px; text-decoration: none; font-size: 1.05rem; display: inline-block;" href="https://us02web.zoom.us/j/82259368779?pwd=0OoU9MzcmYU7kQ9iEh5b9CyKmL2G2K.1" target="_blank" rel="noopener">▶ Join Zoom Meeting</a></div>
+    <div style="margin-top: 12px;">
+        <p style="margin-bottom: 6px; font-size: 0.95rem;">💬 <a style="color: #1b5a8a; text-decoration: none;" href="https://us02web.zoom.us/launch/jc/82259368779">Access Meeting Chat</a></p>
+        <p style="margin-bottom: 0; font-size: 0.95rem;">🤖 <a style="color: #1b5a8a; text-decoration: none;" href="https://us02web.zoom.us/launch/edl?muid=b59a22d6-396d-40cb-80ad-b29dd8f53762">View insights with Zoom AI Companion</a></p>
+    </div>
+</div>
+<h2 style="color: #0d2c4f; border-bottom: 3px solid #d23939; padding-bottom: 6px; font-size: 1.35rem;">🎯 Learning Outcomes</h2>
+<div style="background-color: #ffffff; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #dde5ec;">
+    <h3 style="color: #0d2c4f; margin-top: 0;">📖 Introduction</h3>
+    <p style="color: #1f2d3d; line-height: 1.6;"><strong>React</strong> is a declarative, efficient, and flexible <strong>JavaScript library</strong> designed specifically for building user interfaces. It empowers us to create complex and interactive UIs by breaking them down into small, independent, and reusable pieces of code known as <strong>components</strong>. Each component encapsulates its own structure, style, and behavior, and can manage its own <strong>state</strong> and <strong>logic</strong>.</p>
+    <p style="color: #1f2d3d; line-height: 1.6;">At the core of React is its <strong>component-based architecture</strong>. This not only promotes reusability but also simplifies the management of large applications by allowing us to focus on smaller, manageable pieces of the UI at a time.</p>
+    <p style="color: #1f2d3d; line-height: 1.6;">React also utilizes a <strong>virtual DOM</strong>&mdash;a lightweight copy of the actual DOM&mdash;which enables it to efficiently update only the parts of the UI that have changed. This selective updating results in faster rendering and improved overall performance.</p>
+    <p style="color: #1f2d3d; line-height: 1.6;">Its <strong>declarative programming style</strong> means instead of specifying how to change the UI step-by-step, we describe what the UI should look like for any given state. React takes care of updating the DOM accordingly, making our code more predictable and simpler to debug. Additionally, React uses <strong>JSX</strong>&mdash;a syntax extension that lets us write HTML-like code inside JavaScript.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 28px;">
+    <div style="flex: 1 1 300px; background-color: #fdf3f3; border-radius: 10px; padding: 20px 22px; border: 1px solid #f0c9c9;">
+        <h3 style="color: #d23939; margin-top: 0;">💡 Discussion &amp; Reflection</h3>
+        <ul style="color: #1f2d3d; padding-left: 20px; margin-bottom: 0;">
+            <li style="margin-bottom: 12px;"><strong>What is the purpose of Vite vs. CRA?</strong><br /><span style="color: #5a6b7c;"><strong>Create React App (CRA)</strong> offers a stable, zero-config environment ideal for beginners, while <strong>Vite</strong> provides a faster, modern development experience with quicker startup times.</span></li>
+            <li style="margin-bottom: 12px;"><strong>How do components improve code structure?</strong><br /><span style="color: #5a6b7c;">They break the UI into reusable, self-contained pieces, improving maintainability, readability, and collaboration.</span></li>
+            <li><strong>Why is className used instead of class in JSX?</strong><br /><span style="color: #5a6b7c;">Because <strong>class</strong> is a reserved keyword in JavaScript, <strong>JSX</strong> uses <code>className</code> to assign CSS classes to elements to avoid compilation conflicts.</span></li>
+        </ul>
+    </div>
+    <div style="flex: 1 1 300px; background-color: #ffffff; border-radius: 10px; padding: 20px 22px; border: 1px solid #dde5ec;">
+        <h3 style="color: #0d2c4f; margin-top: 0;">📚 Resources &amp; Materials</h3>
+        <p style="color: #5a6b7c;">Please review these external resources before moving to the next module to solidify your understanding of modern React tooling:</p>
+        <ul style="padding-left: 0; list-style-type: none; margin-bottom: 0;">
+            <li>🔗 <a style="color: #1b5a8a; text-decoration: none;" href="https://vitejs.dev/guide/" target="_blank" rel="noopener">Vite vs CRA (Official Guide)</a></li>
+        </ul>
+    </div>
+</div>
+<div style="background-color: #f0f7f2; border-radius: 10px; padding: 20px 22px; margin-bottom: 24px; border: 1px solid #cfe5d6;">
+    <h3 style="color: #1d6b3a; margin-top: 0;">✅ Summary</h3>
+    <p style="color: #1f2d3d;">By the end of this session, we will be able to:</p>
+    <ul style="color: #1f2d3d; padding-left: 20px; margin-bottom: 16px;">
+        <li style="margin-bottom: 6px;">Use the <strong>terminal</strong> to set up a brand new React app.</li>
+        <li style="margin-bottom: 6px;">Understand and navigate the React <strong>project structure</strong>.</li>
+        <li style="margin-bottom: 0;">Create and render basic <strong>React components</strong>.</li>
+    </ul>
+    <p style="color: #1f2d3d; font-style: italic; margin-bottom: 0;">This foundational knowledge will prepare us to build scalable, maintainable React applications with modern tooling and best practices.</p>
+</div>
+<div style="background-color: #0d2c4f; border-radius: 10px; padding: 16px 22px; text-align: center; color: #d6e4f0; margin-top: 32px;">
+    <p style="margin: 0; font-size: 0.95rem;">🚀 <strong>FSDI 106 / 107 - Full Stack Development Immersive</strong> | San Diego Global Knowledge University</p>
+</div>
