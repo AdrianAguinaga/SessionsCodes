@@ -57,8 +57,12 @@ for manifest in sorted(glob.glob(os.path.join(ROOT, "courses", "*.json"))):
                 problems.append(f"{course} S{s['n']}: lab {lab} not embedded in {tpl}")
 
     cohort = c["last_generated_cohort"]
-    out_dir = os.path.join("Output", f"{course}_Cohort{cohort}")
-    if not os.path.isdir(os.path.join(ROOT, out_dir)):
+    # Finished cohorts are archived under Output/old/.
+    out_dir = next((d for d in (os.path.join("Output", f"{course}_Cohort{cohort}"),
+                                os.path.join("Output", "old", f"{course}_Cohort{cohort}"))
+                    if os.path.isdir(os.path.join(ROOT, d))), None)
+    if not out_dir:
+        out_dir = os.path.join("Output", f"{course}_Cohort{cohort}")
         problems.append(f"{course}: {out_dir} missing")
         continue
     zoom = read(c["zoom_data"])
