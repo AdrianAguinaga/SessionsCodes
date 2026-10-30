@@ -26,7 +26,8 @@ output_dir = os.path.join(ROOT, "Output", f"{course}_Cohort{cohort}")
 email_out = os.path.join(ROOT, "EmailTemplates", f"{course}_Cohort{cohort}_Email.txt")
 
 with open(zoom_data_file, "r", encoding="utf-8") as f:
-    zoom_text = f.read()
+    # Invitations copied as Markdown arrive escaped ("https\://", "\&", "\-").
+    zoom_text = re.sub(r"\\([^\w\s])", r"\1", f.read())
 
 sessions = []
 for part in zoom_text.split("Topic: ")[1:]:
