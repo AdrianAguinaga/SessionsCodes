@@ -1,0 +1,14 @@
+{
+  "course": "107",
+  "title": "React with Vite",
+  "zoom_data": "ZoomData/107.md",
+  "templates": "Templates/107",
+  "knowledge": "Knowledge/SessionsData/107",
+  "last_generated_cohort": "70",
+  "sessions": [
+    { "n": 1, "title": "Environment Setup + Basic Components", "topics": ["terminal", "Vite project", "components", "modular CSS"], "labs": [] },
+    { "n": 2, "title": "State, Events & Dynamic Rendering", "topics": ["useState", "events", "props"], "labs": [] },
+    { "n": 3, "title": "Data Lifecycle, Dynamic Lists & Styling", "topics": ["useEffect", "lists & keys", "styling"], "labs": [] },
+    { "n": 4, "title": "Advanced State, Lifting State & Responsive Design", "topics": ["filtering", "lifting state", "derived data"], "labs": [] }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "course": "106",
+  "title": "Full Stack Logic with jQuery & Azure Functions",
+  "zoom_data": "ZoomData/106.md",
+  "templates": "Templates/106",
+  "knowledge": "Knowledge/SessionsData/106/full 106.md",
+  "last_generated_cohort": "72",
+  "sessions": [
+    { "n": 1, "title": "Architecture, Models & Styles", "topics": ["project structure", "CSS grid & cards", "Task class"], "labs": [] },
+    { "n": 2, "title": "The DOM, Events & Reading Data (GET)", "topics": ["DOM tree", "jQuery events", "AJAX GET"], "labs": ["106/http-inspector"] },
+    { "n": 3, "title": "Client-Server Communication (POST)", "topics": ["JSON serialization", "AJAX POST", "Azure Function logic"], "labs": [] },
+    { "n": 4, "title": "Deletion & Advanced Logic", "topics": ["event delegation", "DELETE", "client-side filtering"], "labs": [] }
+  ]
+}
