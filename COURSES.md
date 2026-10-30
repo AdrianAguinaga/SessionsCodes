@@ -13,6 +13,7 @@ Short map of this repo. Details live in the files it points to.
 2. `python scripts/process.py --course <course> --cohort <n>`
 3. Set `last_generated_cohort` in `courses/<course>.json`.
 4. `python scripts/check.py` must print `OK`.
+5. Once a cohort is finished, move its folder to `Output/old/`.
 
 ## Live labs
 
